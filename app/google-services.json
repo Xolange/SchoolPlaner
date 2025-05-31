@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308485884005",
+    "project_id": "zsshedule",
+    "storage_bucket": "zsshedule.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308485884005:android:3629f097268b2113951e8c",
+        "android_client_info": {
+          "package_name": "com.example.schoolplaner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWaOjFZHgHA483X9eZlMgrGHTeImpqjKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

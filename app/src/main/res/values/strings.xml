@@ -1,0 +1,26 @@
+<resources>
+    <string name="empty_tasks_image_desc">Иконка отсутствия задач</string>
+    <string name="app_name">EduPlaner</string>
+
+    <string-array name="classes_array">
+        <item>7А</item>
+        <item>8А</item>
+        <item>8Б</item>
+        <item>9А</item>
+        <item>9Б</item>
+        <item>10А</item>
+        <item>10Б</item>
+        <item>10В</item>
+        <item>11А</item>
+        <item>11Б</item>
+        <item>11В</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+    </string-array>
+</resources>

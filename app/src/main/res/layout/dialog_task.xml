@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_rounded"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Новая задача"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название задачи"
+        android:inputType="text"
+        android:backgroundTint="@color/purple_500"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:backgroundTint="@color/purple_500"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Время:"
+            android:textSize="16sp"
+            android:layout_marginEnd="12dp"/>
+
+        <TextView
+            android:id="@+id/textViewTaskTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:textSize="16sp"
+            android:textColor="@color/purple_700"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/buttonPickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_recent_history"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Выбрать время"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отмена"
+            android:backgroundTint="@color/purple_200"/>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сохранить"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

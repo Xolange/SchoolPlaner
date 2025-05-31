@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_schedule"
+        android:title="Расписание"
+        android:icon="@android:drawable/ic_menu_today" />
+    <item
+        android:id="@+id/nav_tasks"
+        android:title="Задачи"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_add"
+        android:title="Добавить"
+        android:icon="@android:drawable/ic_menu_add" />
+</menu>

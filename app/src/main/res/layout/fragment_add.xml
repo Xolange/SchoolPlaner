@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название задачи"
+            android:background="@drawable/bg_edit_text"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Описание"
+            android:background="@drawable/bg_edit_text"
+            android:padding="16dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewDayLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="День недели"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinnerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/textViewTimeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Время"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewTimePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/bg_edit_text"
+            android:text="Выбрать время"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создать задачу"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3F51B5"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_button_rounded"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>
