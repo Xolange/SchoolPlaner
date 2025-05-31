@@ -3,6 +3,8 @@ package com.example.schoolplaner;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+import com.example.schoolplaner.ScheduleDayFragment;
+
 
 public class SchedulePagerAdapter extends FragmentStateAdapter {
 
@@ -26,7 +28,6 @@ public class SchedulePagerAdapter extends FragmentStateAdapter {
         return days.length;
     }
 
-    // Добавляем метод для обновления выбранного класса
     public void setSelectedClass(String selectedClass) {
         this.selectedClass = selectedClass;
         notifyDataSetChanged();
@@ -34,7 +35,6 @@ public class SchedulePagerAdapter extends FragmentStateAdapter {
 
     @Override
     public long getItemId(int position) {
-        // Возвращаем уникальный ID для каждой позиции с учетом выбранного класса
         return (selectedClass + days[position]).hashCode();
     }
 

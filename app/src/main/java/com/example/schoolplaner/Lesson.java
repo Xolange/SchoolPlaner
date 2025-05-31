@@ -6,7 +6,6 @@ public class Lesson {
     private String teacher;
 
     public Lesson() {
-        // для Firebase
     }
 
     public Lesson(String subject, String time, String teacher) {
@@ -15,7 +14,13 @@ public class Lesson {
         this.teacher = teacher;
     }
 
-    public String getSubject() {
+    public Lesson(String subject, String time) {
+        this.subject = subject;
+        this.time = time;
+        this.teacher = "";
+    }
+
+    public String getTitle() {
         return subject;
     }
 

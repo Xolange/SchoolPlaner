@@ -1,24 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content" android:padding="8dp"
-    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
 
     <TextView
-        android:id="@+id/textLessonSubject"
-        android:layout_width="wrap_content"
+        android:id="@+id/textLessonTitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Предмет"
+        android:text="Название урока"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textLessonTime"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="08:00" />
-
-    <TextView
-        android:id="@+id/textLessonTeacher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Учитель" />
+        android:text="08:00 - 08:45"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
 </LinearLayout>

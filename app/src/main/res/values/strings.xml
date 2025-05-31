@@ -22,5 +22,6 @@
         <item>Ср</item>
         <item>Чт</item>
         <item>Пт</item>
+        <item>Сб</item>
     </string-array>
 </resources>

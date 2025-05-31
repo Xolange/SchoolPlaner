@@ -46,10 +46,12 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
-    implementation("androidx.fragment:fragment:1.3.6")
     implementation("com.google.code.gson:gson:2.10.1")
 
     implementation(platform("com.google.firebase:firebase-bom:33.14.0"))
+    implementation("com.google.firebase:firebase-database:20.2.0")
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
+
     implementation("com.google.firebase:firebase-analytics")
 
 
@@ -62,6 +64,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,3 +73,4 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
+

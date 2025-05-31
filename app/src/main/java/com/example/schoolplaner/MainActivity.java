@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bottomNavigation = findViewById(R.id.bottom_navigation);
 
-        // Показать фрагмент по умолчанию
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.frame_container, new ScheduleFragment()).commit();
 

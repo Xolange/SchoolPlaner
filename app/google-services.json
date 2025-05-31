@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "308485884005",
+    "firebase_url": "https://zsshedule-default-rtdb.firebaseio.com",
     "project_id": "zsshedule",
     "storage_bucket": "zsshedule.firebasestorage.app"
   },
